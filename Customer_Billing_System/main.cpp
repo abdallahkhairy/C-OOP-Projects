@@ -19,11 +19,11 @@ int main() {
     int choice;
 
     do {
-        cout << "\n===== Customer Billing System =====\n";
-        cout << "1. Add Item to Cart\n";
-        cout << "2. View Cart\n";
-        cout << "3. Generate Bill\n";
-        cout << "0. Exit\n";
+        cout << endl <<"===== Customer Billing System ===== "<< endl;
+        cout << "1- Add Item to Your Cart "<< endl;
+        cout << "2- View Cart items "<< endl;
+        cout << "3- Display The Receipt "<< endl;
+        cout << "0- Quit "<< endl;
         cout << "Enter your choice: ";
         cin >> choice;
 
@@ -38,7 +38,7 @@ int main() {
             cart.displayReceipt();
             break;
         case 0:
-            cout << "Exiting.." << endl;;
+            cout << "Exiting.." << endl;
             break;
         default:
             cout << "Invalid choice" <<endl<< "Please try again" << endl;

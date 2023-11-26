@@ -16,7 +16,7 @@ void MyCart::addItem() {
     
     cart.push_back(newItem);
 
-    cout << item_name << " added to the cart.\n";
+    cout << item_name << " added to the cart. "<< endl;
     
 }
 
@@ -34,7 +34,7 @@ double MyCart::calculateTotal() const {
 void MyCart::displayCart() const
 {
     if (cart.empty()) {
-        cout << "Cart is empty. Please add products first." << endl;
+        cout << endl << ">>> There is no items in your cart <<<" << endl;
         return;
     }
 
@@ -48,35 +48,34 @@ void MyCart::displayCart() const
 
         double productTotal = product.price * product.quantity;
         total += productTotal;
-        cout << setw(20) << left << product.name << setw(10) << product.quantity << setw(10) << product.price << setw(15) << productTotal << endl;
+        cout << setw(20) << left << product.name << setw(10) << product.quantity << '$' << setw(10) << product.price << '$' << setw(15) << productTotal << endl;
     }
 
     cout << setfill('-') << setw(55) << "-" << setfill(' ') << endl;
-    cout << setw(45) << right << "Total: " << setw(10) << total << endl << endl;
+    cout << endl << setw(45) << right << "Total Price: " << '$' << total << endl << endl;
     cout << "-----------------> End of Your Cart <------------------" << endl << endl;
 }
 
 // Function to display the items in the cart
 void MyCart::displayReceipt() const {
     if (cart.empty()) {
-        cout << "Cart is empty. Please add products first." << endl;
+        cout << endl << ">>> No items Have been added <<<" << endl;
         return;
     }
 
     double total = 0.0;
 
-    cout << "======================= receipt =======================" << endl << endl;
+    cout << "==================== Your Receipt =====================" << endl << endl;
     cout << setw(20) << left << "Product" << setw(10) << "Quantity" << setw(10) << "Price" << setw(15) << "Total" << endl;
     cout << setfill('-') << setw(55) << "-" << setfill(' ') << endl;
 
     for (auto& product : cart) {
-
         double productTotal = product.price * product.quantity;
         total += productTotal;
-        cout << setw(20) << left << product.name << setw(10) << product.quantity << setw(10) << product.price << setw(15) << productTotal << endl;
+        cout << setw(20) << left << product.name << setw(10) << product.quantity << '$' << setw(10) << product.price << '$' << setw(15) << productTotal << endl;
     }
 
     cout << setfill('-') << setw(55) << "-" << setfill(' ') << endl;
-    cout << setw(45) << right << "Total: " << setw(10) << total << endl << endl;
-    cout << "=================== End of receipt ====================" << endl << endl;
+    cout << endl << setw(45) << right << "Total Price: " << '$' << total << endl << endl;
+    cout << "================ End of Your receipt ==================" << endl << endl;
 }
