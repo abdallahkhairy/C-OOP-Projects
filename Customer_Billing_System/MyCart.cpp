@@ -35,47 +35,47 @@ void MyCart::displayCart() const
 {
     if (cart.empty()) {
         cout << endl << ">>> There is no items in your cart <<<" << endl;
-        return;
+
     }
+    else{
+        double total = 0.0;
 
-    double total = 0.0;
+        cout << endl << "----------------> Items in Your Cart <-----------------" << endl << endl;
+        cout << setw(20) << left << "Product" << setw(10) << "Quantity" << setw(10) << "Price" << setw(15) << "Total" << endl;
+        cout << setfill('-') << setw(55) << "-" << setfill(' ') << endl;
 
-    cout << endl << "----------------> Items in Your Cart <-----------------" << endl << endl;
-    cout << setw(20) << left << "Product" << setw(10) << "Quantity" << setw(10) << "Price" << setw(15) << "Total" << endl;
-    cout << setfill('-') << setw(55) << "-" << setfill(' ') << endl;
+        for (auto& product : cart) {
+            double productTotal = product.price * product.quantity;
+            total += productTotal;
+            cout << setw(20) << left << product.name << setw(10) << product.quantity << '$' << setw(10) << product.price << '$' << setw(15) << productTotal << endl;
+        }
 
-    for (auto& product : cart) {
-
-        double productTotal = product.price * product.quantity;
-        total += productTotal;
-        cout << setw(20) << left << product.name << setw(10) << product.quantity << '$' << setw(10) << product.price << '$' << setw(15) << productTotal << endl;
+        cout << setfill('-') << setw(55) << "-" << setfill(' ') << endl;
+        cout << endl << setw(45) << right << "Total Price: " << '$' << total << endl << endl;
+        cout << "-----------------> End of Your Cart <------------------" << endl << endl;
     }
-
-    cout << setfill('-') << setw(55) << "-" << setfill(' ') << endl;
-    cout << endl << setw(45) << right << "Total Price: " << '$' << total << endl << endl;
-    cout << "-----------------> End of Your Cart <------------------" << endl << endl;
 }
 
 // Function to display the items in the cart
 void MyCart::displayReceipt() const {
     if (cart.empty()) {
         cout << endl << ">>> No items Have been added <<<" << endl;
-        return;
     }
+    else {
+        double total = 0.0;
 
-    double total = 0.0;
+        cout << "==================== Your Receipt =====================" << endl << endl;
+        cout << setw(20) << left << "Product" << setw(10) << "Quantity" << setw(10) << "Price" << setw(15) << "Total" << endl;
+        cout << setfill('-') << setw(55) << "-" << setfill(' ') << endl;
 
-    cout << "==================== Your Receipt =====================" << endl << endl;
-    cout << setw(20) << left << "Product" << setw(10) << "Quantity" << setw(10) << "Price" << setw(15) << "Total" << endl;
-    cout << setfill('-') << setw(55) << "-" << setfill(' ') << endl;
+        for (auto& product : cart) {
+            double productTotal = product.price * product.quantity;
+            total += productTotal;
+            cout << setw(20) << left << product.name << setw(10) << product.quantity << '$' << setw(10) << product.price << '$' << setw(15) << productTotal << endl;
+        }
 
-    for (auto& product : cart) {
-        double productTotal = product.price * product.quantity;
-        total += productTotal;
-        cout << setw(20) << left << product.name << setw(10) << product.quantity << '$' << setw(10) << product.price << '$' << setw(15) << productTotal << endl;
+        cout << setfill('-') << setw(55) << "-" << setfill(' ') << endl;
+        cout << endl << setw(45) << right << "Total Price: " << '$' << total << endl << endl;
+        cout << "================ End of Your receipt ==================" << endl << endl;
     }
-
-    cout << setfill('-') << setw(55) << "-" << setfill(' ') << endl;
-    cout << endl << setw(45) << right << "Total Price: " << '$' << total << endl << endl;
-    cout << "================ End of Your receipt ==================" << endl << endl;
 }
