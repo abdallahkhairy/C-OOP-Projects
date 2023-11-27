@@ -1,2 +1,2 @@
 # OOP_Projects
-![My Image](Git review.jpg)
+![Alt text](Git review.jpg "Optional title")
