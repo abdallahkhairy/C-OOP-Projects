@@ -1,3 +1,3 @@
 # OOP_Projects
-![OOP_Projects](Git_review.jpg)
+![OOP_Projects](Git_review.png)
 
