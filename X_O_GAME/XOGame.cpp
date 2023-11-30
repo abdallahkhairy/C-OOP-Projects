@@ -161,8 +161,6 @@ void XOGame::play() {
         for (int j = 0; j < MATRIX_COLS; j++)
         {
             if (matrix[i][j] == ' ') {
-                // There is an empty space, game can continue
-                // Switch to the other player
                 return;
             }
         }
