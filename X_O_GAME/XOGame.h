@@ -28,6 +28,7 @@ public:
     void displayScore();
     void play();
     void reset_game();
+    bool isInputValid();
     bool isGameEnded();
 };
 

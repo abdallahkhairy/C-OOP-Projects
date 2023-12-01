@@ -3,11 +3,11 @@
 XOGame::XOGame() : matrix{ {' ',' ',' '}, {' ',' ',' '} , {' ',' ',' '} },
                    player1_name("Player 1"), player2_name("Player 2"), player_turn("Player 1"),
                    end_flag(0), row(0), col(0), match_number(1) {
-    cout << "              ***********************" << endl;
-    cout << "              *                     *" << endl;
-    cout << "              * Welcome To X O Game *" << endl;
-    cout << "              *                     *" << endl;
-    cout << "              ***********************" << endl;
+    cout << "        *************************************" << endl;
+    cout << "        **                                 **" << endl;
+    cout << "        **       Welcome To X O Game       **" << endl;
+    cout << "        **                                 **" << endl;
+    cout << "        *************************************" << endl;
 }
 
 void XOGame::displayMatrix() {
@@ -16,9 +16,28 @@ void XOGame::displayMatrix() {
     {
         for (int j = 0; j < MATRIX_COLS; j++)
         {
-            cout << " [ " << matrix[i][j] << " ] ";
+            if (0 == j) {
+                //cout << endl;
+                cout << "      |       |     " << endl;;
+                cout << "  " << matrix[i][j] << "  ";
+            }
+            else if(1 == j ){
+                cout << " |   " << matrix[i][j] << "   |   "<< matrix[i][j+1] <<endl;
+                cout << "      |       |     ";
+                
+               // cout <<"      *       * ";
+            }
+            else {
+              //  cout << "2" << endl;;
+                //cout << "  " << matrix[i][j] << "  ";
+            }
         }
-        cout << endl << endl;
+        if (i < 2) {
+            cout << endl <<"----------------------" << endl;
+        }
+        else { 
+            cout << endl;
+        }
     }
 }
 
@@ -36,37 +55,11 @@ void XOGame::displayScore() {
 }
 
 void XOGame::play() {
-    if (0 == player_flag) {
-        cout << endl << player1_name << ", Choose The Position ( Enter RAW then press space then COLUMN ) : " << endl;
-        cin >> row >> col;
-        row--, col--;
-        if (row < 0 || row >= 3 || col < 0 || col >= 3 || matrix[row][col] != ' ') {
-            cout << endl << "Invalid Indices Please Enter Indices between 1 - 3 " << endl;
-            return;
-        }
 
-        matrix[row][col] = 'X';
-        player_flag = 1;
+    if (!isInputValid()){
+        return;
     }
-    else if (1 == player_flag) {
-        cout << endl << player2_name << ", Choose The Position ( Enter RAW then press space then COLUMN ) : " << endl;
-        cin >> row >> col;
-        row--, col--;
-        if ((row < 0) || (row >= 3) || (col < 0) || (col >= 3)) {
-            cout << endl << "Invalid Indices, Please Enter Indices between 1 - 3 " << endl;
-            return;
-        }
-        else if (matrix[row][col] != ' ') {
-            cout << endl << "This Position Isn`t Empty, Please Choose Empty Position " << endl;
-            return;
-        }
-        else {
-            matrix[row][col] = 'Y';
-            player_flag = 0;
-        }
-    }
-    else { /* Nothing */ }
-
+    else{ /* Proceed */ }
     displayMatrix();
 
     // Check rows, columns for a match
@@ -181,6 +174,46 @@ void XOGame::reset_game() {
     }
     displayMatrix();
     end_flag = 0;
+}
+
+bool XOGame::isInputValid()
+{
+    if (0 == player_flag) {
+        cout << endl << player1_name << ", Choose The Position ( Enter RAW then press space then COLUMN ) : " << endl;
+        cin >> row >> col;
+        row--, col--;
+        if ((row < 0) || (row >= 3) || (col < 0) || (col >= 3)) {
+            cout << endl << "Invalid Indices, Please Enter Indices between 1 - 3 " << endl;
+            return false;
+        }
+        else if (matrix[row][col] != ' ') {
+            cout << endl << "This Position Isn`t Empty, Please Choose Empty Position " << endl;
+            return false;
+        }
+        else {
+            matrix[row][col] = 'X';
+            player_flag = 1;
+        }
+    }
+    else if (1 == player_flag) {
+        cout << endl << player2_name << ", Choose The Position ( Enter RAW then press space then COLUMN ) : " << endl;
+        cin >> row >> col;
+        row--, col--;
+        if ((row < 0) || (row >= 3) || (col < 0) || (col >= 3)) {
+            cout << endl << "Invalid Indices, Please Enter Indices between 1 - 3 " << endl;
+            return false;
+        }
+        else if (matrix[row][col] != ' ') {
+            cout << endl << "This Position Isn`t Empty, Please Choose Empty Position " << endl;
+            return false;
+        }
+        else {
+            matrix[row][col] = 'O';
+            player_flag = 0;
+        }
+    }
+    else { /* Nothing */ }
+    return true;
 }
 
 bool XOGame::isGameEnded() {
