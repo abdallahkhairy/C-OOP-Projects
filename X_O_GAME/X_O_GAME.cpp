@@ -1,5 +1,5 @@
 #include <iostream>
-#include "XOGame.h"
+#include "XOGame.hpp"
 
 using namespace std;
 

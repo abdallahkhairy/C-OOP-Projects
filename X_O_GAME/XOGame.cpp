@@ -1,4 +1,4 @@
-#include "XOGame.h"
+#include "XOGame.hpp"
 
 XOGame::XOGame() : matrix{ {' ',' ',' '}, {' ',' ',' '} , {' ',' ',' '} },
                    player1_name("Player 1"), player2_name("Player 2"), player_turn("Player 1"),

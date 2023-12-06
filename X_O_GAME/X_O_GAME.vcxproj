@@ -131,7 +131,7 @@
     <ClCompile Include="X_O_GAME.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="XOGame.h" />
+    <ClInclude Include="XOGame.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

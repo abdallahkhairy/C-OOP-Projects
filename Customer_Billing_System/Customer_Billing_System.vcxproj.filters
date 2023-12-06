@@ -26,10 +26,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Item.h">
+    <ClInclude Include="Item.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MyCart.h">
+    <ClInclude Include="MyCart.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
