@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OOP Projects\\client_app\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5E9E54-8E07-4497-8810-13AC8A77A380}|client_app.vcxproj|D:\\OOP Projects\\client_app\\TCPClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AF5E9E54-8E07-4497-8810-13AC8A77A380}|client_app.vcxproj|solutionrelative:TCPClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5E9E54-8E07-4497-8810-13AC8A77A380}|client_app.vcxproj|D:\\OOP Projects\\client_app\\TCPClient.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AF5E9E54-8E07-4497-8810-13AC8A77A380}|client_app.vcxproj|solutionrelative:TCPClient.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5E9E54-8E07-4497-8810-13AC8A77A380}|client_app.vcxproj|D:\\OOP Projects\\client_app\\TCPSocket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AF5E9E54-8E07-4497-8810-13AC8A77A380}|client_app.vcxproj|solutionrelative:TCPSocket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5E9E54-8E07-4497-8810-13AC8A77A380}|client_app.vcxproj|D:\\OOP Projects\\client_app\\client_app.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AF5E9E54-8E07-4497-8810-13AC8A77A380}|client_app.vcxproj|solutionrelative:client_app.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5E9E54-8E07-4497-8810-13AC8A77A380}|client_app.vcxproj|D:\\OOP Projects\\client_app\\TCPSocket.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AF5E9E54-8E07-4497-8810-13AC8A77A380}|client_app.vcxproj|solutionrelative:TCPSocket.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TCPClient.cpp",
+              "DocumentMoniker": "D:\\OOP Projects\\client_app\\TCPClient.cpp",
+              "RelativeDocumentMoniker": "TCPClient.cpp",
+              "ToolTip": "D:\\OOP Projects\\client_app\\TCPClient.cpp",
+              "RelativeToolTip": "TCPClient.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-09T21:24:03.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TCPClient.hpp",
+              "DocumentMoniker": "D:\\OOP Projects\\client_app\\TCPClient.hpp",
+              "RelativeDocumentMoniker": "TCPClient.hpp",
+              "ToolTip": "D:\\OOP Projects\\client_app\\TCPClient.hpp",
+              "RelativeToolTip": "TCPClient.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-09T21:23:44.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TCPSocket.cpp",
+              "DocumentMoniker": "D:\\OOP Projects\\client_app\\TCPSocket.cpp",
+              "RelativeDocumentMoniker": "TCPSocket.cpp",
+              "ToolTip": "D:\\OOP Projects\\client_app\\TCPSocket.cpp",
+              "RelativeToolTip": "TCPSocket.cpp",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-09T21:20:58.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "client_app.cpp",
+              "DocumentMoniker": "D:\\OOP Projects\\client_app\\client_app.cpp",
+              "RelativeDocumentMoniker": "client_app.cpp",
+              "ToolTip": "D:\\OOP Projects\\client_app\\client_app.cpp",
+              "RelativeToolTip": "client_app.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-09T21:20:56.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TCPSocket.hpp",
+              "DocumentMoniker": "D:\\OOP Projects\\client_app\\TCPSocket.hpp",
+              "RelativeDocumentMoniker": "TCPSocket.hpp",
+              "ToolTip": "D:\\OOP Projects\\client_app\\TCPSocket.hpp",
+              "RelativeToolTip": "TCPSocket.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-09T21:20:22.101Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

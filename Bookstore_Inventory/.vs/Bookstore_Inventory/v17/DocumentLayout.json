@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OOP Projects\\Bookstore_Inventory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0D95442-868D-4E60-B1ED-A256D27BA631}|Bookstore_Inventory.vcxproj|D:\\OOP Projects\\Bookstore_Inventory\\Database.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D0D95442-868D-4E60-B1ED-A256D27BA631}|Bookstore_Inventory.vcxproj|solutionrelative:Database.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0D95442-868D-4E60-B1ED-A256D27BA631}|Bookstore_Inventory.vcxproj|D:\\OOP Projects\\Bookstore_Inventory\\Bookstore_Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D0D95442-868D-4E60-B1ED-A256D27BA631}|Bookstore_Inventory.vcxproj|solutionrelative:Bookstore_Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0D95442-868D-4E60-B1ED-A256D27BA631}|Bookstore_Inventory.vcxproj|D:\\OOP Projects\\Bookstore_Inventory\\Bookstore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D0D95442-868D-4E60-B1ED-A256D27BA631}|Bookstore_Inventory.vcxproj|solutionrelative:Bookstore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0D95442-868D-4E60-B1ED-A256D27BA631}|Bookstore_Inventory.vcxproj|D:\\OOP Projects\\Bookstore_Inventory\\Book.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D0D95442-868D-4E60-B1ED-A256D27BA631}|Bookstore_Inventory.vcxproj|solutionrelative:Book.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0D95442-868D-4E60-B1ED-A256D27BA631}|Bookstore_Inventory.vcxproj|D:\\OOP Projects\\Bookstore_Inventory\\Database.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D0D95442-868D-4E60-B1ED-A256D27BA631}|Bookstore_Inventory.vcxproj|solutionrelative:Database.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0D95442-868D-4E60-B1ED-A256D27BA631}|Bookstore_Inventory.vcxproj|D:\\OOP Projects\\Bookstore_Inventory\\Book.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D0D95442-868D-4E60-B1ED-A256D27BA631}|Bookstore_Inventory.vcxproj|solutionrelative:Book.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0D95442-868D-4E60-B1ED-A256D27BA631}|Bookstore_Inventory.vcxproj|D:\\OOP Projects\\Bookstore_Inventory\\Bookstore.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D0D95442-868D-4E60-B1ED-A256D27BA631}|Bookstore_Inventory.vcxproj|solutionrelative:Bookstore.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cpp",
+              "DocumentMoniker": "D:\\OOP Projects\\Bookstore_Inventory\\Book.cpp",
+              "RelativeDocumentMoniker": "Book.cpp",
+              "ToolTip": "D:\\OOP Projects\\Bookstore_Inventory\\Book.cpp",
+              "RelativeToolTip": "Book.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-09T14:04:08.754Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bookstore.cpp",
+              "DocumentMoniker": "D:\\OOP Projects\\Bookstore_Inventory\\Bookstore.cpp",
+              "RelativeDocumentMoniker": "Bookstore.cpp",
+              "ToolTip": "D:\\OOP Projects\\Bookstore_Inventory\\Bookstore.cpp",
+              "RelativeToolTip": "Bookstore.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-09T14:52:29.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Bookstore.hpp",
+              "DocumentMoniker": "D:\\OOP Projects\\Bookstore_Inventory\\Bookstore.hpp",
+              "RelativeDocumentMoniker": "Bookstore.hpp",
+              "ToolTip": "D:\\OOP Projects\\Bookstore_Inventory\\Bookstore.hpp",
+              "RelativeToolTip": "Bookstore.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-09T14:51:30.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Database.cpp",
+              "DocumentMoniker": "D:\\OOP Projects\\Bookstore_Inventory\\Database.cpp",
+              "RelativeDocumentMoniker": "Database.cpp",
+              "ToolTip": "D:\\OOP Projects\\Bookstore_Inventory\\Database.cpp",
+              "RelativeToolTip": "Database.cpp",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-09T14:09:41.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Database.hpp",
+              "DocumentMoniker": "D:\\OOP Projects\\Bookstore_Inventory\\Database.hpp",
+              "RelativeDocumentMoniker": "Database.hpp",
+              "ToolTip": "D:\\OOP Projects\\Bookstore_Inventory\\Database.hpp",
+              "RelativeToolTip": "Database.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-09T14:08:42.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Book.hpp",
+              "DocumentMoniker": "D:\\OOP Projects\\Bookstore_Inventory\\Book.hpp",
+              "RelativeDocumentMoniker": "Book.hpp",
+              "ToolTip": "D:\\OOP Projects\\Bookstore_Inventory\\Book.hpp",
+              "RelativeToolTip": "Book.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-09T14:02:06.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bookstore_Inventory.cpp",
+              "DocumentMoniker": "D:\\OOP Projects\\Bookstore_Inventory\\Bookstore_Inventory.cpp",
+              "RelativeDocumentMoniker": "Bookstore_Inventory.cpp",
+              "ToolTip": "D:\\OOP Projects\\Bookstore_Inventory\\Bookstore_Inventory.cpp",
+              "RelativeToolTip": "Bookstore_Inventory.cpp",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAABsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-09T14:01:57.514Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

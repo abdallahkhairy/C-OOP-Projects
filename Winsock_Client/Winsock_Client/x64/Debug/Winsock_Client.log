@@ -1,0 +1,3 @@
+﻿  WinsockClient.cpp
+D:\OOP Projects\Winsock_Client\Winsock_Client\WinsockClient.cpp(93,65): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Winsock_Client.vcxproj -> D:\OOP Projects\Winsock_Client\x64\Debug\Winsock_Client.exe

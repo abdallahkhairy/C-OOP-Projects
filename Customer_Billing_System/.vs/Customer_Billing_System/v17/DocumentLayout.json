@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OOP Projects\\Customer_Billing_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB039043-8171-4160-8B9D-BD159350BD48}|Customer_Billing_System.vcxproj|D:\\OOP Projects\\Customer_Billing_System\\MyCart.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FB039043-8171-4160-8B9D-BD159350BD48}|Customer_Billing_System.vcxproj|solutionrelative:MyCart.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB039043-8171-4160-8B9D-BD159350BD48}|Customer_Billing_System.vcxproj|D:\\OOP Projects\\Customer_Billing_System\\Item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FB039043-8171-4160-8B9D-BD159350BD48}|Customer_Billing_System.vcxproj|solutionrelative:Item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB039043-8171-4160-8B9D-BD159350BD48}|Customer_Billing_System.vcxproj|D:\\OOP Projects\\Customer_Billing_System\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FB039043-8171-4160-8B9D-BD159350BD48}|Customer_Billing_System.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB039043-8171-4160-8B9D-BD159350BD48}|Customer_Billing_System.vcxproj|D:\\OOP Projects\\Customer_Billing_System\\MyCart.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FB039043-8171-4160-8B9D-BD159350BD48}|Customer_Billing_System.vcxproj|solutionrelative:MyCart.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyCart.hpp",
+              "DocumentMoniker": "D:\\OOP Projects\\Customer_Billing_System\\MyCart.hpp",
+              "RelativeDocumentMoniker": "MyCart.hpp",
+              "ToolTip": "D:\\OOP Projects\\Customer_Billing_System\\MyCart.hpp",
+              "RelativeToolTip": "MyCart.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2023-12-06T12:20:15.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyCart.cpp",
+              "DocumentMoniker": "D:\\OOP Projects\\Customer_Billing_System\\MyCart.cpp",
+              "RelativeDocumentMoniker": "MyCart.cpp",
+              "ToolTip": "D:\\OOP Projects\\Customer_Billing_System\\MyCart.cpp",
+              "RelativeToolTip": "MyCart.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2023-11-26T00:37:33.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Item.cpp",
+              "DocumentMoniker": "D:\\OOP Projects\\Customer_Billing_System\\Item.cpp",
+              "RelativeDocumentMoniker": "Item.cpp",
+              "ToolTip": "D:\\OOP Projects\\Customer_Billing_System\\Item.cpp",
+              "RelativeToolTip": "Item.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2023-11-26T00:29:10.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\OOP Projects\\Customer_Billing_System\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\OOP Projects\\Customer_Billing_System\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2023-11-26T00:20:56.734Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

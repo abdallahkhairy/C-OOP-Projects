@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OOP Projects\\Credit_Card_Validator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37E238B3-1DAA-4EA6-B86B-E1AB45E18513}|Credit_Card_Validator.vcxproj|D:\\OOP Projects\\Credit_Card_Validator\\CreditCardNumber.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{37E238B3-1DAA-4EA6-B86B-E1AB45E18513}|Credit_Card_Validator.vcxproj|solutionrelative:CreditCardNumber.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E238B3-1DAA-4EA6-B86B-E1AB45E18513}|Credit_Card_Validator.vcxproj|D:\\OOP Projects\\Credit_Card_Validator\\Credit_Card_Validator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{37E238B3-1DAA-4EA6-B86B-E1AB45E18513}|Credit_Card_Validator.vcxproj|solutionrelative:Credit_Card_Validator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E238B3-1DAA-4EA6-B86B-E1AB45E18513}|Credit_Card_Validator.vcxproj|D:\\OOP Projects\\Credit_Card_Validator\\CreditCardNumber.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{37E238B3-1DAA-4EA6-B86B-E1AB45E18513}|Credit_Card_Validator.vcxproj|solutionrelative:CreditCardNumber.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreditCardNumber.cpp",
+              "DocumentMoniker": "D:\\OOP Projects\\Credit_Card_Validator\\CreditCardNumber.cpp",
+              "RelativeDocumentMoniker": "CreditCardNumber.cpp",
+              "ToolTip": "D:\\OOP Projects\\Credit_Card_Validator\\CreditCardNumber.cpp",
+              "RelativeToolTip": "CreditCardNumber.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-09T12:50:30.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreditCardNumber.hpp",
+              "DocumentMoniker": "D:\\OOP Projects\\Credit_Card_Validator\\CreditCardNumber.hpp",
+              "RelativeDocumentMoniker": "CreditCardNumber.hpp",
+              "ToolTip": "D:\\OOP Projects\\Credit_Card_Validator\\CreditCardNumber.hpp",
+              "RelativeToolTip": "CreditCardNumber.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-09T12:50:24.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Credit_Card_Validator.cpp",
+              "DocumentMoniker": "D:\\OOP Projects\\Credit_Card_Validator\\Credit_Card_Validator.cpp",
+              "RelativeDocumentMoniker": "Credit_Card_Validator.cpp",
+              "ToolTip": "D:\\OOP Projects\\Credit_Card_Validator\\Credit_Card_Validator.cpp",
+              "RelativeToolTip": "Credit_Card_Validator.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-09T12:46:26.875Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

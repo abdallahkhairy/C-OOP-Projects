@@ -1,0 +1,14 @@
+﻿  main.cpp
+  WinsockClient.cpp
+  Winsock_Client.cpp
+  Generating Code...
+WinsockClient.obj : error LNK2019: unresolved external symbol __imp__closesocket@4 referenced in function "private: void __thiscall WinsockClient::connect(void)" (?connect@WinsockClient@@AAEXXZ)
+WinsockClient.obj : error LNK2019: unresolved external symbol __imp__connect@12 referenced in function "private: void __thiscall WinsockClient::connect(void)" (?connect@WinsockClient@@AAEXXZ)
+WinsockClient.obj : error LNK2019: unresolved external symbol __imp__htons@4 referenced in function "private: void __thiscall WinsockClient::connect(void)" (?connect@WinsockClient@@AAEXXZ)
+WinsockClient.obj : error LNK2019: unresolved external symbol __imp__recv@16 referenced in function "private: void __thiscall WinsockClient::receiveMessages(void)" (?receiveMessages@WinsockClient@@AAEXXZ)
+WinsockClient.obj : error LNK2019: unresolved external symbol __imp__send@16 referenced in function "private: void __thiscall WinsockClient::sendMessages(void)" (?sendMessages@WinsockClient@@AAEXXZ)
+WinsockClient.obj : error LNK2019: unresolved external symbol __imp__socket@12 referenced in function "private: void __thiscall WinsockClient::connect(void)" (?connect@WinsockClient@@AAEXXZ)
+WinsockClient.obj : error LNK2019: unresolved external symbol __imp__WSAStartup@8 referenced in function "public: __thiscall WinsockClient::WinsockClient(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (??0WinsockClient@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+WinsockClient.obj : error LNK2019: unresolved external symbol __imp__WSACleanup@0 referenced in function "public: __thiscall WinsockClient::~WinsockClient(void)" (??1WinsockClient@@QAE@XZ)
+WinsockClient.obj : error LNK2019: unresolved external symbol __imp__inet_pton@12 referenced in function "private: void __thiscall WinsockClient::connect(void)" (?connect@WinsockClient@@AAEXXZ)
+D:\OOP Projects\Winsock_Client\Debug\Winsock_Client.exe : fatal error LNK1120: 9 unresolved externals

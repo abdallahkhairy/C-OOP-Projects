@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OOP Projects\\X_O_GAME\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E27A7EE-4F38-4241-B83F-2A287ECC8CED}|X_O_GAME.vcxproj|D:\\OOP Projects\\X_O_GAME\\XOGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2E27A7EE-4F38-4241-B83F-2A287ECC8CED}|X_O_GAME.vcxproj|solutionrelative:XOGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E27A7EE-4F38-4241-B83F-2A287ECC8CED}|X_O_GAME.vcxproj|D:\\OOP Projects\\X_O_GAME\\XOGame.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2E27A7EE-4F38-4241-B83F-2A287ECC8CED}|X_O_GAME.vcxproj|solutionrelative:XOGame.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E27A7EE-4F38-4241-B83F-2A287ECC8CED}|X_O_GAME.vcxproj|D:\\OOP Projects\\X_O_GAME\\X_O_GAME.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2E27A7EE-4F38-4241-B83F-2A287ECC8CED}|X_O_GAME.vcxproj|solutionrelative:X_O_GAME.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "XOGame.hpp",
+              "DocumentMoniker": "D:\\OOP Projects\\X_O_GAME\\XOGame.hpp",
+              "RelativeDocumentMoniker": "XOGame.hpp",
+              "ToolTip": "D:\\OOP Projects\\X_O_GAME\\XOGame.hpp",
+              "RelativeToolTip": "XOGame.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-04T07:19:40.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "XOGame.cpp",
+              "DocumentMoniker": "D:\\OOP Projects\\X_O_GAME\\XOGame.cpp",
+              "RelativeDocumentMoniker": "XOGame.cpp",
+              "ToolTip": "D:\\OOP Projects\\X_O_GAME\\XOGame.cpp",
+              "RelativeToolTip": "XOGame.cpp",
+              "ViewState": "AQIAAN8AAAAAAAAAAAAAALQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-04T07:11:47.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "X_O_GAME.cpp",
+              "DocumentMoniker": "D:\\OOP Projects\\X_O_GAME\\X_O_GAME.cpp",
+              "RelativeDocumentMoniker": "X_O_GAME.cpp",
+              "ToolTip": "D:\\OOP Projects\\X_O_GAME\\X_O_GAME.cpp",
+              "RelativeToolTip": "X_O_GAME.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-04T07:11:41.881Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

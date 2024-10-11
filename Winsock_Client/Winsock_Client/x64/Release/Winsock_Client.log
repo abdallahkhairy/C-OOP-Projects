@@ -1,0 +1,14 @@
+﻿  main.cpp
+  WinsockClient.cpp
+D:\OOP Projects\Winsock_Client\Winsock_Client\WinsockClient.cpp(56,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Winsock_Client.cpp
+WinsockClient.obj : error LNK2001: unresolved external symbol __imp_htons
+WinsockClient.obj : error LNK2001: unresolved external symbol __imp_recv
+WinsockClient.obj : error LNK2001: unresolved external symbol __imp_connect
+WinsockClient.obj : error LNK2001: unresolved external symbol __imp_socket
+WinsockClient.obj : error LNK2001: unresolved external symbol __imp_send
+WinsockClient.obj : error LNK2001: unresolved external symbol __imp_WSAStartup
+WinsockClient.obj : error LNK2001: unresolved external symbol __imp_inet_pton
+WinsockClient.obj : error LNK2001: unresolved external symbol __imp_closesocket
+WinsockClient.obj : error LNK2001: unresolved external symbol __imp_WSACleanup
+D:\OOP Projects\Winsock_Client\x64\Release\Winsock_Client.exe : fatal error LNK1120: 9 unresolved externals

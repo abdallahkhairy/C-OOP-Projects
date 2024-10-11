@@ -1,0 +1,14 @@
+﻿  main.cpp
+  WinsockServer.cpp
+  Winsock_Server.cpp
+WinsockServer.obj : error LNK2001: unresolved external symbol __imp__htons@4
+WinsockServer.obj : error LNK2001: unresolved external symbol __imp__recv@16
+WinsockServer.obj : error LNK2001: unresolved external symbol __imp__socket@12
+WinsockServer.obj : error LNK2001: unresolved external symbol __imp__send@16
+WinsockServer.obj : error LNK2001: unresolved external symbol __imp__WSAStartup@8
+WinsockServer.obj : error LNK2001: unresolved external symbol __imp__listen@8
+WinsockServer.obj : error LNK2001: unresolved external symbol __imp__closesocket@4
+WinsockServer.obj : error LNK2001: unresolved external symbol __imp__bind@12
+WinsockServer.obj : error LNK2001: unresolved external symbol __imp__accept@12
+WinsockServer.obj : error LNK2001: unresolved external symbol __imp__WSACleanup@0
+D:\OOP Projects\Winsock_Server\Release\Winsock_Server.exe : fatal error LNK1120: 10 unresolved externals
